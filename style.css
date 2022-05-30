@@ -13,7 +13,7 @@ body {
 .header img {
     width: 100%;
 }
-.header .more_inf {
+.header .more_info__link {
     font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@ body {
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.create-task {
     display: flex;
 }
 ul {
@@ -93,7 +93,7 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+.create-task__input {
     width: 318px;
 }
 
@@ -142,11 +142,11 @@ ul li input[type=text] {
     display: none;
 }
 
-ul li.editMode input[type=text] {
+.mode > .task-item__input {
     display: inline-block;
     width: 224px;
 }
 
-ul li.editMode label {
+ul li.mode label {
     display: none;
 }
